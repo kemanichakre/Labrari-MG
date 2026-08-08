@@ -1,0 +1,96 @@
+{
+  "success": true,
+  "data": {
+    "totalBooks": 100,
+    "totalAuthors": 40,
+    "totalCategories": 15,
+    "totalCopies": 328,
+    "availableCopies": 225,
+    "issuedBooks": 103,
+    "categoryDistribution": [
+      { "category": "Programming", "count": 14 },
+      { "category": "Computer Science", "count": 10 },
+      { "category": "Web Development", "count": 9 },
+      { "category": "Machine Learning", "count": 8 },
+      { "category": "Artificial Intelligence", "count": 8 },
+      { "category": "Cyber Security", "count": 7 },
+      { "category": "Database", "count": 7 },
+      { "category": "Networking", "count": 6 },
+      { "category": "Cloud Computing", "count": 6 },
+      { "category": "Business", "count": 5 },
+      { "category": "Finance", "count": 5 },
+      { "category": "History", "count": 4 },
+      { "category": "Biography", "count": 4 },
+      { "category": "Self Help", "count": 4 },
+      { "category": "Novel", "count": 3 }
+    ],
+    "recentActivity": [
+      { "date": "2024-02-26", "count": 2 },
+      { "date": "2024-02-27", "count": 2 },
+      { "date": "2024-02-28", "count": 4 },
+      { "date": "2024-02-29", "count": 2 },
+      { "date": "2024-03-01", "count": 2 },
+      { "date": "2024-03-02", "count": 2 },
+      { "date": "2024-03-03", "count": 2 },
+      { "date": "2024-03-04", "count": 2 }
+    ],
+    "recentBooks": [
+      {
+        "id": 100,
+        "title": "The Alchemist",
+        "author": "Paulo Coelho",
+        "isbn": "978-0062315007",
+        "category": "Novel",
+        "published_year": 2014,
+        "quantity": 4,
+        "available_quantity": 3,
+        "created_at": "2024-03-04 00:00:00"
+      },
+      {
+        "id": 99,
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "isbn": "978-0061120084",
+        "category": "Novel",
+        "published_year": 2010,
+        "quantity": 3,
+        "available_quantity": 2,
+        "created_at": "2024-03-04 00:00:00"
+      },
+      {
+        "id": 98,
+        "title": "1984",
+        "author": "George Orwell",
+        "isbn": "978-0451524935",
+        "category": "Novel",
+        "published_year": 1961,
+        "quantity": 4,
+        "available_quantity": 3,
+        "created_at": "2024-03-03 00:00:00"
+      },
+      {
+        "id": 97,
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "isbn": "978-0743273565",
+        "category": "Novel",
+        "published_year": 2004,
+        "quantity": 3,
+        "available_quantity": 2,
+        "created_at": "2024-03-03 00:00:00"
+      },
+      {
+        "id": 96,
+        "title": "Machine Learning for Hackers",
+        "author": "Drew Conway",
+        "isbn": "978-1449303716",
+        "category": "Machine Learning",
+        "published_year": 2012,
+        "quantity": 2,
+        "available_quantity": 1,
+        "created_at": "2024-03-02 00:00:00"
+      }
+    ]
+  }
+}
+

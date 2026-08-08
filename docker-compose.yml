@@ -1,0 +1,104 @@
+# ============================================================
+# Docker Compose Configuration
+# ============================================================
+# This file defines three services:
+#   1. mysql     — MySQL 8 database
+#   2. backend   — Node.js + Express API
+#   3. frontend  — React app served by Nginx
+#
+# All services communicate through a shared network.
+# MySQL data is persisted using a named volume.
+# ============================================================
+
+version: "3.8"
+
+services:
+  # ============================================================
+  # MySQL Database Service
+  # ============================================================
+  mysql:
+    image: mysql:8.0
+    container_name: library-mysql
+    restart: unless-stopped
+    environment:
+      # Root password for MySQL (change in production!)
+      MYSQL_ROOT_PASSWORD: rootpassword
+      # Automatically create the database on startup
+      MYSQL_DATABASE: library_db
+    ports:
+      # Expose MySQL on port 3307 to avoid conflicts with
+      # any local MySQL installation on port 3306
+      - "3307:3306"
+    volumes:
+      # Named volume to persist database data across restarts
+      - mysql_data:/var/lib/mysql
+      # Auto-run the schema file on first startup
+      - ./database/schema.sql:/docker-entrypoint-initdb.d/schema.sql
+    networks:
+      - library-network
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # ============================================================
+  # Backend API Service
+  # ============================================================
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: library-backend
+    restart: unless-stopped
+    environment:
+      # Database connection — use service name "mysql" as host
+      DB_HOST: mysql
+      DB_USER: root
+      DB_PASSWORD: rootpassword
+      DB_NAME: library_db
+      DB_PORT: 3306
+      PORT: 5000
+    ports:
+      - "5000:5000"
+    depends_on:
+      mysql:
+        condition: service_healthy
+    networks:
+      - library-network
+
+  # ============================================================
+  # Frontend Service (React + Nginx)
+  # ============================================================
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: library-frontend
+    restart: unless-stopped
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+    networks:
+      - library-network
+
+# ============================================================
+# Named Volumes
+# ============================================================
+# Volumes persist data even after containers are removed.
+# The mysql_data volume stores all database files.
+# ============================================================
+volumes:
+  mysql_data:
+
+# ============================================================
+# Networks
+# ============================================================
+# All services are on the same network so they can
+# communicate using service names as hostnames.
+# ============================================================
+networks:
+  library-network:
+    driver: bridge
+

@@ -1,0 +1,123 @@
+[
+  {
+    "id": 1,
+    "name": "Programming",
+    "description": "Books on programming languages, software development paradigms, and coding best practices covering languages like Python, Java, C++, JavaScript, and more.",
+    "icon": "💻",
+    "color": "#667eea",
+    "bookCount": 14
+  },
+  {
+    "id": 2,
+    "name": "Computer Science",
+    "description": "Foundational texts on algorithms, data structures, computational theory, and the principles of computing.",
+    "icon": "🖥️",
+    "color": "#764ba2",
+    "bookCount": 10
+  },
+  {
+    "id": 3,
+    "name": "Database",
+    "description": "Resources covering database design, SQL, NoSQL, data modeling, query optimization, and database administration.",
+    "icon": "🗄️",
+    "color": "#10b981",
+    "bookCount": 7
+  },
+  {
+    "id": 4,
+    "name": "Networking",
+    "description": "Study of computer networks, protocols, network architecture, TCP/IP, wireless communications, and network security.",
+    "icon": "🌐",
+    "color": "#f59e0b",
+    "bookCount": 6
+  },
+  {
+    "id": 5,
+    "name": "Cyber Security",
+    "description": "Cybersecurity fundamentals, ethical hacking, cryptography, penetration testing, and information security management.",
+    "icon": "🔒",
+    "color": "#ef4444",
+    "bookCount": 7
+  },
+  {
+    "id": 6,
+    "name": "Cloud Computing",
+    "description": "Cloud architecture, AWS, Azure, Google Cloud, DevOps, containerization, microservices, and distributed systems.",
+    "icon": "☁️",
+    "color": "#3b82f6",
+    "bookCount": 6
+  },
+  {
+    "id": 7,
+    "name": "Artificial Intelligence",
+    "description": "AI fundamentals, intelligent agents, knowledge representation, natural language processing, and robotics.",
+    "icon": "🤖",
+    "color": "#8b5cf6",
+    "bookCount": 8
+  },
+  {
+    "id": 8,
+    "name": "Machine Learning",
+    "description": "Supervised and unsupervised learning, neural networks, deep learning, reinforcement learning, and statistical models.",
+    "icon": "🧠",
+    "color": "#ec4899",
+    "bookCount": 8
+  },
+  {
+    "id": 9,
+    "name": "Web Development",
+    "description": "Frontend and backend web development, HTML/CSS, JavaScript frameworks, REST APIs, and full-stack development.",
+    "icon": "🌍",
+    "color": "#14b8a6",
+    "bookCount": 9
+  },
+  {
+    "id": 10,
+    "name": "Business",
+    "description": "Business strategy, entrepreneurship, marketing, management principles, organizational behavior, and leadership.",
+    "icon": "💼",
+    "color": "#f97316",
+    "bookCount": 5
+  },
+  {
+    "id": 11,
+    "name": "Finance",
+    "description": "Financial accounting, investment analysis, corporate finance, economics, and financial markets.",
+    "icon": "💰",
+    "color": "#06b6d4",
+    "bookCount": 5
+  },
+  {
+    "id": 12,
+    "name": "History",
+    "description": "World history, ancient civilizations, modern history, historical analysis, and cultural heritage.",
+    "icon": "📜",
+    "color": "#d946ef",
+    "bookCount": 4
+  },
+  {
+    "id": 13,
+    "name": "Biography",
+    "description": "Biographies and memoirs of influential scientists, leaders, innovators, and thinkers from around the world.",
+    "icon": "👤",
+    "color": "#0ea5e9",
+    "bookCount": 4
+  },
+  {
+    "id": 14,
+    "name": "Self Help",
+    "description": "Personal development, productivity, mindfulness, communication skills, and mental well-being resources.",
+    "icon": "🌟",
+    "color": "#84cc16",
+    "bookCount": 4
+  },
+  {
+    "id": 15,
+    "name": "Novel",
+    "description": "Classic and contemporary fiction including literary works, science fiction, mystery, and philosophical novels.",
+    "icon": "📖",
+    "color": "#e11d48",
+    "bookCount": 3
+  }
+]
+

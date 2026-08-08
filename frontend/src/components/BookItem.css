@@ -1,0 +1,116 @@
+/* ============================================================
+   Book Item (Table Row) Styles
+   ============================================================ */
+.cell-index {
+  font-weight: 600;
+  color: #9ca3af;
+  width: 40px;
+}
+
+.cell-title {
+  max-width: 200px;
+}
+
+.book-title-text {
+  font-weight: 500;
+  color: #1f2937;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.cell-isbn {
+  font-family: "Courier New", monospace;
+  font-size: 0.85rem;
+  color: #6b7280;
+}
+
+.cell-qty {
+  text-align: center;
+  font-weight: 500;
+}
+
+/* Category Badge */
+.category-badge {
+  display: inline-block;
+  background: #ede9fe;
+  color: #6d28d9;
+  padding: 3px 10px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+/* Status Badge */
+.status-badge {
+  display: inline-block;
+  padding: 3px 12px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.status-available {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+.status-issued {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+/* Action Buttons */
+.cell-actions {
+  display: flex;
+  gap: 6px;
+  white-space: nowrap;
+}
+
+/* Mobile Card View */
+@media (max-width: 600px) {
+  .book-table,
+  .book-table thead,
+  .book-table tbody,
+  .book-table tr,
+  .book-table th,
+  .book-table td {
+    display: block;
+  }
+
+  .book-table thead {
+    display: none;
+  }
+
+  .book-table tr {
+    padding: 16px;
+    border-bottom: 1px solid #e5e7eb;
+    position: relative;
+  }
+
+  .book-table td {
+    padding: 4px 0;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .book-table td::before {
+    content: attr(data-label);
+    font-weight: 600;
+    color: #6b7280;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+  }
+
+  .cell-actions {
+    justify-content: flex-end;
+    padding-top: 8px;
+    gap: 8px;
+  }
+}
+

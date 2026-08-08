@@ -1,0 +1,203 @@
+[
+  {
+    "id": 1,
+    "studentId": 7,
+    "bookId": 1,
+    "borrowDate": "2024-01-20",
+    "dueDate": "2024-02-03",
+    "returnDate": "2024-02-02",
+    "status": "Returned",
+    "fine": 0.00
+  },
+  {
+    "id": 2,
+    "studentId": 13,
+    "bookId": 23,
+    "borrowDate": "2024-01-22",
+    "dueDate": "2024-02-05",
+    "returnDate": "2024-02-04",
+    "status": "Returned",
+    "fine": 0.00
+  },
+  {
+    "id": 3,
+    "studentId": 22,
+    "bookId": 49,
+    "borrowDate": "2024-01-25",
+    "dueDate": "2024-02-08",
+    "returnDate": "2024-02-07",
+    "status": "Returned",
+    "fine": 0.00
+  },
+  {
+    "id": 4,
+    "studentId": 32,
+    "bookId": 29,
+    "borrowDate": "2024-01-28",
+    "dueDate": "2024-02-11",
+    "returnDate": null,
+    "status": "Borrowed",
+    "fine": 0.00
+  },
+  {
+    "id": 5,
+    "studentId": 5,
+    "bookId": 10,
+    "borrowDate": "2024-02-01",
+    "dueDate": "2024-02-15",
+    "returnDate": "2024-02-14",
+    "status": "Returned",
+    "fine": 0.00
+  },
+  {
+    "id": 6,
+    "studentId": 14,
+    "bookId": 9,
+    "borrowDate": "2024-02-02",
+    "dueDate": "2024-02-16",
+    "returnDate": null,
+    "status": "Overdue",
+    "fine": 4.50
+  },
+  {
+    "id": 7,
+    "studentId": 40,
+    "bookId": 74,
+    "borrowDate": "2024-02-05",
+    "dueDate": "2024-02-19",
+    "returnDate": "2024-02-18",
+    "status": "Returned",
+    "fine": 0.00
+  },
+  {
+    "id": 8,
+    "studentId": 1,
+    "bookId": 50,
+    "borrowDate": "2024-02-05",
+    "dueDate": "2024-02-19",
+    "returnDate": null,
+    "status": "Borrowed",
+    "fine": 0.00
+  },
+  {
+    "id": 9,
+    "studentId": 26,
+    "bookId": 82,
+    "borrowDate": "2024-02-08",
+    "dueDate": "2024-02-22",
+    "returnDate": "2024-02-21",
+    "status": "Returned",
+    "fine": 0.00
+  },
+  {
+    "id": 10,
+    "studentId": 4,
+    "bookId": 41,
+    "borrowDate": "2024-02-10",
+    "dueDate": "2024-02-24",
+    "returnDate": "2024-02-23",
+    "status": "Returned",
+    "fine": 0.00
+  },
+  {
+    "id": 11,
+    "studentId": 17,
+    "bookId": 23,
+    "borrowDate": "2024-02-12",
+    "dueDate": "2024-02-26",
+    "returnDate": null,
+    "status": "Borrowed",
+    "fine": 0.00
+  },
+  {
+    "id": 12,
+    "studentId": 44,
+    "bookId": 7,
+    "borrowDate": "2024-02-14",
+    "dueDate": "2024-02-28",
+    "returnDate": "2024-02-27",
+    "status": "Returned",
+    "fine": 0.00
+  },
+  {
+    "id": 13,
+    "studentId": 24,
+    "bookId": 78,
+    "borrowDate": "2024-02-15",
+    "dueDate": "2024-02-29",
+    "returnDate": null,
+    "status": "Overdue",
+    "fine": 2.00
+  },
+  {
+    "id": 14,
+    "studentId": 2,
+    "bookId": 12,
+    "borrowDate": "2024-02-16",
+    "dueDate": "2024-03-01",
+    "returnDate": "2024-02-29",
+    "status": "Returned",
+    "fine": 0.00
+  },
+  {
+    "id": 15,
+    "studentId": 31,
+    "bookId": 45,
+    "borrowDate": "2024-02-18",
+    "dueDate": "2024-03-03",
+    "returnDate": null,
+    "status": "Borrowed",
+    "fine": 0.00
+  },
+  {
+    "id": 16,
+    "studentId": 8,
+    "bookId": 48,
+    "borrowDate": "2024-02-20",
+    "dueDate": "2024-03-05",
+    "returnDate": "2024-03-04",
+    "status": "Returned",
+    "fine": 0.00
+  },
+  {
+    "id": 17,
+    "studentId": 49,
+    "bookId": 65,
+    "borrowDate": "2024-02-22",
+    "dueDate": "2024-03-07",
+    "returnDate": null,
+    "status": "Overdue",
+    "fine": 1.00
+  },
+  {
+    "id": 18,
+    "studentId": 5,
+    "bookId": 83,
+    "borrowDate": "2024-02-25",
+    "dueDate": "2024-03-10",
+    "returnDate": null,
+    "status": "Borrowed",
+    "fine": 0.00
+  },
+  {
+    "id": 19,
+    "studentId": 34,
+    "bookId": 16,
+    "borrowDate": "2024-02-28",
+    "dueDate": "2024-03-13",
+    "returnDate": null,
+    "status": "Borrowed",
+    "fine": 0.00
+  },
+  {
+    "id": 20,
+    "studentId": 22,
+    "bookId": 53,
+    "borrowDate": "2024-02-28",
+    "dueDate": "2024-03-13",
+    "returnDate": null,
+    "status": "Overdue",
+    "fine": 5.00
+  }
+]
+

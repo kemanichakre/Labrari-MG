@@ -1,0 +1,363 @@
+[
+  {
+    "id": 1,
+    "name": "Dr. Robert Sedgewick",
+    "bio": "Professor of Computer Science at Princeton University and author of seminal textbooks on algorithms and data structures. His work has shaped computer science education worldwide.",
+    "birthYear": 1946,
+    "nationality": "American",
+    "image": "https://picsum.photos/seed/author1/200/200",
+    "bookCount": 3
+  },
+  {
+    "id": 2,
+    "name": "Thomas H. Cormen",
+    "bio": "Emeritus Professor at Dartmouth College and lead author of 'Introduction to Algorithms', the most widely used algorithms textbook globally.",
+    "birthYear": 1956,
+    "nationality": "American",
+    "image": "https://picsum.photos/seed/author2/200/200",
+    "bookCount": 2
+  },
+  {
+    "id": 3,
+    "name": "Dr. Andrew S. Tanenbaum",
+    "bio": "Professor at Vrije Universiteit Amsterdam and creator of MINIX. Author of influential textbooks on operating systems and computer networks.",
+    "birthYear": 1944,
+    "nationality": "Dutch",
+    "image": "https://picsum.photos/seed/author3/200/200",
+    "bookCount": 3
+  },
+  {
+    "id": 4,
+    "name": "Martin Kleppmann",
+    "bio": "Researcher at the University of Cambridge and author of 'Designing Data-Intensive Applications'. Expert in distributed systems and data engineering.",
+    "birthYear": 1986,
+    "nationality": "British",
+    "image": "https://picsum.photos/seed/author4/200/200",
+    "bookCount": 1
+  },
+  {
+    "id": 5,
+    "name": "Dr. Abraham Silberschatz",
+    "bio": "Professor at Yale University and renowned author of multiple textbooks on database systems and operating systems.",
+    "birthYear": 1950,
+    "nationality": "American",
+    "image": "https://picsum.photos/seed/author5/200/200",
+    "bookCount": 2
+  },
+  {
+    "id": 6,
+    "name": "James F. Kurose",
+    "bio": "Professor at the University of Massachusetts Amherst. Co-author of 'Computer Networking: A Top-Down Approach', a leading networking textbook.",
+    "birthYear": 1956,
+    "nationality": "American",
+    "image": "https://picsum.photos/seed/author6/200/200",
+    "bookCount": 1
+  },
+  {
+    "id": 7,
+    "name": "William Stallings",
+    "bio": "Prolific author of over 20 textbooks on computer security, networking, and cryptography used in universities worldwide.",
+    "birthYear": 1946,
+    "nationality": "American",
+    "image": "https://picsum.photos/seed/author7/200/200",
+    "bookCount": 3
+  },
+  {
+    "id": 8,
+    "name": "Dr. Nitesh Dhanjani",
+    "bio": "Cybersecurity expert and author specializing in cloud security, ethical hacking, and security architecture.",
+    "birthYear": 1978,
+    "nationality": "Indian-American",
+    "image": "https://picsum.photos/seed/author8/200/200",
+    "bookCount": 2
+  },
+  {
+    "id": 9,
+    "name": "Dr. Niall Ó Broin",
+    "bio": "Expert in cloud infrastructure and distributed systems. Author of comprehensive guides on cloud computing architecture and best practices.",
+    "birthYear": 1975,
+    "nationality": "Irish",
+    "image": "https://picsum.photos/seed/author9/200/200",
+    "bookCount": 2
+  },
+  {
+    "id": 10,
+    "name": "Stuart Russell",
+    "bio": "Professor of Computer Science at UC Berkeley and co-author of 'Artificial Intelligence: A Modern Approach', the standard AI textbook.",
+    "birthYear": 1962,
+    "nationality": "British-American",
+    "image": "https://picsum.photos/seed/author10/200/200",
+    "bookCount": 2
+  },
+  {
+    "id": 11,
+    "name": "Christopher Bishop",
+    "bio": "Distinguished scientist at Microsoft Research and author of 'Pattern Recognition and Machine Learning', a foundational ML text.",
+    "birthYear": 1959,
+    "nationality": "British",
+    "image": "https://picsum.photos/seed/author11/200/200",
+    "bookCount": 2
+  },
+  {
+    "id": 12,
+    "name": "Ian Goodfellow",
+    "bio": "Research scientist and lead author of 'Deep Learning' (the MIT Press book). Inventor of GANs (Generative Adversarial Networks).",
+    "birthYear": 1985,
+    "nationality": "American",
+    "image": "https://picsum.photos/seed/author12/200/200",
+    "bookCount": 1
+  },
+  {
+    "id": 13,
+    "name": "Marijn Haverbeke",
+    "bio": "Author of 'Eloquent JavaScript', one of the most popular programming books. Creator of the CodeMirror editor and TernJS.",
+    "birthYear": 1980,
+    "nationality": "Dutch",
+    "image": "https://picsum.photos/seed/author13/200/200",
+    "bookCount": 1
+  },
+  {
+    "id": 14,
+    "name": "David Flanagan",
+    "bio": "Author of 'JavaScript: The Definitive Guide' and other programming references. Expert in web technologies and software development.",
+    "birthYear": 1964,
+    "nationality": "American",
+    "image": "https://picsum.photos/seed/author14/200/200",
+    "bookCount": 2
+  },
+  {
+    "id": 15,
+    "name": "Miguel Grinberg",
+    "bio": "Software engineer and author of the 'Flask Web Development' book. Creator of popular Flask tutorials and extensions.",
+    "birthYear": 1975,
+    "nationality": "Argentine-American",
+    "image": "https://picsum.photos/seed/author15/200/200",
+    "bookCount": 1
+  },
+  {
+    "id": 16,
+    "name": "Eric Freeman",
+    "bio": "Computer scientist and co-author of multiple 'Head First' series books including 'Head First Design Patterns'. Expert in educational technology.",
+    "birthYear": 1965,
+    "nationality": "American",
+    "image": "https://picsum.photos/seed/author16/200/200",
+    "bookCount": 2
+  },
+  {
+    "id": 17,
+    "name": "Bjarne Stroustrup",
+    "bio": "Creator of the C++ programming language and author of 'The C++ Programming Language'. Professor at Columbia University.",
+    "birthYear": 1950,
+    "nationality": "Danish",
+    "image": "https://picsum.photos/seed/author17/200/200",
+    "bookCount": 2
+  },
+  {
+    "id": 18,
+    "name": "Dr. Yuval Noah Harari",
+    "bio": "Historian and author of 'Sapiens: A Brief History of Humankind' and other bestselling works on human civilization.",
+    "birthYear": 1976,
+    "nationality": "Israeli",
+    "image": "https://picsum.photos/seed/author18/200/200",
+    "bookCount": 2
+  },
+  {
+    "id": 19,
+    "name": "Walter Isaacson",
+    "bio": "Acclaimed biographer and journalist. Author of bestsellers including 'Steve Jobs', 'Einstein', and 'Leonardo da Vinci'.",
+    "birthYear": 1952,
+    "nationality": "American",
+    "image": "https://picsum.photos/seed/author19/200/200",
+    "bookCount": 2
+  },
+  {
+    "id": 20,
+    "name": "James Clear",
+    "bio": "Author of 'Atomic Habits', one of the most influential self-help books of the decade. Expert on habit formation and behavior change.",
+    "birthYear": 1986,
+    "nationality": "American",
+    "image": "https://picsum.photos/seed/author20/200/200",
+    "bookCount": 1
+  },
+  {
+    "id": 21,
+    "name": "Cal Newport",
+    "bio": "Professor at Georgetown University and author of books on focus, productivity, and deep work in the digital age.",
+    "birthYear": 1982,
+    "nationality": "American",
+    "image": "https://picsum.photos/seed/author21/200/200",
+    "bookCount": 2
+  },
+  {
+    "id": 22,
+    "name": "Stephen Covey",
+    "bio": "Author of 'The 7 Habits of Highly Effective People', one of the best-selling self-help books of all time.",
+    "birthYear": 1932,
+    "nationality": "American",
+    "image": "https://picsum.photos/seed/author22/200/200",
+    "bookCount": 1
+  },
+  {
+    "id": 23,
+    "name": "Dr. Paul Deitel",
+    "bio": "Co-author of the renowned 'Deitel & Deitel' programming textbooks series used by universities worldwide.",
+    "birthYear": 1960,
+    "nationality": "American",
+    "image": "https://picsum.photos/seed/author23/200/200",
+    "bookCount": 3
+  },
+  {
+    "id": 24,
+    "name": "Bruce Eckel",
+    "bio": "Author of 'Thinking in Java' and 'Thinking in C++', influential programming books that teach object-oriented thinking.",
+    "birthYear": 1957,
+    "nationality": "American",
+    "image": "https://picsum.photos/seed/author24/200/200",
+    "bookCount": 2
+  },
+  {
+    "id": 25,
+    "name": "David Heinemeier Hansson",
+    "bio": "Creator of Ruby on Rails and co-author of several books on web development and software design.",
+    "birthYear": 1979,
+    "nationality": "Danish",
+    "image": "https://picsum.photos/seed/author25/200/200",
+    "bookCount": 1
+  },
+  {
+    "id": 26,
+    "name": "Zed Shaw",
+    "bio": "Author of the 'Learn Code the Hard Way' series. Developer of Mongrel web server and Lamson project.",
+    "birthYear": 1976,
+    "nationality": "American",
+    "image": "https://picsum.photos/seed/author26/200/200",
+    "bookCount": 2
+  },
+  {
+    "id": 27,
+    "name": "Steve McConnell",
+    "bio": "Author of 'Code Complete', a seminal work on software construction. Expert in software engineering practices and project management.",
+    "birthYear": 1962,
+    "nationality": "American",
+    "image": "https://picsum.photos/seed/author27/200/200",
+    "bookCount": 2
+  },
+  {
+    "id": 28,
+    "name": "Martin Fowler",
+    "bio": "Chief Scientist at ThoughtWorks and author of influential books on refactoring, patterns, and software architecture.",
+    "birthYear": 1963,
+    "nationality": "British",
+    "image": "https://picsum.photos/seed/author28/200/200",
+    "bookCount": 2
+  },
+  {
+    "id": 29,
+    "name": "Donald Knuth",
+    "bio": "Professor Emeritus at Stanford University, creator of TeX, and author of 'The Art of Computer Programming' series.",
+    "birthYear": 1938,
+    "nationality": "American",
+    "image": "https://picsum.photos/seed/author29/200/200",
+    "bookCount": 1
+  },
+  {
+    "id": 30,
+    "name": "Dr. Carlos Guestrin",
+    "bio": "Professor at Stanford University and co-author of the 'Lazy Programmer' series on machine learning and AI.",
+    "birthYear": 1972,
+    "nationality": "Brazilian-American",
+    "image": "https://picsum.photos/seed/author30/200/200",
+    "bookCount": 1
+  },
+  {
+    "id": 31,
+    "name": "Harold Abelson",
+    "bio": "Professor at MIT and co-author of 'Structure and Interpretation of Computer Programs', a classic CS text.",
+    "birthYear": 1947,
+    "nationality": "American",
+    "image": "https://picsum.photos/seed/author31/200/200",
+    "bookCount": 1
+  },
+  {
+    "id": 32,
+    "name": "John Greenewald",
+    "bio": "Expert in database systems and data warehousing. Author of comprehensive guides to modern database technologies.",
+    "birthYear": 1970,
+    "nationality": "American",
+    "image": "https://picsum.photos/seed/author32/200/200",
+    "bookCount": 1
+  },
+  {
+    "id": 33,
+    "name": "Nathan Marz",
+    "bio": "Creator of Apache Storm and author of 'Big Data: Principles and Practices'. Expert in scalable data processing.",
+    "birthYear": 1985,
+    "nationality": "American",
+    "image": "https://picsum.photos/seed/author33/200/200",
+    "bookCount": 1
+  },
+  {
+    "id": 34,
+    "name": "Eben Upton",
+    "bio": "Co-founder of the Raspberry Pi Foundation and author of guides on Raspberry Pi computing and IoT.",
+    "birthYear": 1978,
+    "nationality": "British",
+    "image": "https://picsum.photos/seed/author34/200/200",
+    "bookCount": 1
+  },
+  {
+    "id": 35,
+    "name": "Kathy Sierra",
+    "bio": "Co-author of 'Head First Java' and 'Head First Design Patterns'. Expert in educational technology and game design.",
+    "birthYear": 1967,
+    "nationality": "American",
+    "image": "https://picsum.photos/seed/author35/200/200",
+    "bookCount": 1
+  },
+  {
+    "id": 36,
+    "name": "Peter Norvig",
+    "bio": "Director of Research at Google and co-author of 'Artificial Intelligence: A Modern Approach'. Expert in AI and NLP.",
+    "birthYear": 1956,
+    "nationality": "American",
+    "image": "https://picsum.photos/seed/author36/200/200",
+    "bookCount": 1
+  },
+  {
+    "id": 37,
+    "name": "Dr. Ngọc Nguyễn",
+    "bio": "Professor of Computer Science and author of several textbooks on machine learning and data science.",
+    "birthYear": 1980,
+    "nationality": "Vietnamese-American",
+    "image": "https://picsum.photos/seed/author37/200/200",
+    "bookCount": 1
+  },
+  {
+    "id": 38,
+    "name": "Michael Nielsen",
+    "bio": "Author of 'Neural Networks and Deep Learning'. Researcher in quantum computing and artificial intelligence.",
+    "birthYear": 1974,
+    "nationality": "Canadian",
+    "image": "https://picsum.photos/seed/author38/200/200",
+    "bookCount": 1
+  },
+  {
+    "id": 39,
+    "name": "Olivia Hawthorne",
+    "bio": "Award-winning novelist and professor of creative writing. Author of critically acclaimed literary fiction.",
+    "birthYear": 1975,
+    "nationality": "British",
+    "image": "https://picsum.photos/seed/author39/200/200",
+    "bookCount": 2
+  },
+  {
+    "id": 40,
+    "name": "Kevin Mitnick",
+    "bio": "Legendary hacker turned security consultant. Author of 'The Art of Deception' and other cybersecurity books.",
+    "birthYear": 1963,
+    "nationality": "American",
+    "image": "https://picsum.photos/seed/author40/200/200",
+    "bookCount": 2
+  }
+]
+
