@@ -1,0 +1,54 @@
+
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: library-backend
+  namespace: library-management
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: library-backend
+  template:
+    metadata:
+      labels:
+        app: library-backend
+    spec:
+      containers:
+        - name: backend
+          image: labrarimg-backend:latest
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 5000
+          env:
+            - name: DB_HOST
+              value: mysql
+
+            - name: DB_PORT
+              value: "3306"
+
+            - name: DB_USER
+              value: root
+
+            - name: DB_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: mysql-secret
+                  key: MYSQL_ROOT_PASSWORD
+
+            - name: DB_NAME
+              value: library_db
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: backend-service
+  namespace: library-management
+spec:
+  selector:
+    app: library-backend
+  ports:
+    - port: 5000
+      targetPort: 5000
+  type: ClusterIP
